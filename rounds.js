@@ -1,0 +1,8 @@
+(function(root){
+'use strict';
+const items=[['sofa','Диван'],['lemon','Лимон'],['rooster','Петух'],['bag','Пакет'],['ram','Баран'],['pie','Пирог'],['cook','Повар'],['axe','Топор'],['castle','Замок'],['boar','Кабан'],['sock','Носок'],['bread','Батон'],['giraffe','Жираф'],['peas','Горох']];
+function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function validate(rounds){if(rounds.length!==8)throw Error('Expected 8 rounds');const seen=new Set(),common=new Set();for(const r of rounds){if(r.left.length!==5||r.right.length!==5||new Set(r.left).size!==5||new Set(r.right).size!==5)throw Error('Invalid card');const intersection=r.left.filter(x=>r.right.includes(x));if(intersection.length!==1||intersection[0]!==r.common)throw Error('Invalid intersection');common.add(r.common);[...r.left,...r.right].forEach(x=>{if(!items.some(([id])=>id===x))throw Error('Unknown item');seen.add(x);});}if(common.size!==8||seen.size!==14)throw Error('Missing variety');return true;}
+function create(){const ids=items.map(x=>x[0]),answers=shuffle(ids).slice(0,8),seen=new Set();const rounds=answers.map(common=>{const pool=shuffle(ids.filter(x=>x!==common));pool.sort((a,b)=>Number(seen.has(a))-Number(seen.has(b)));const others=pool.slice(0,8);[common,...others].forEach(x=>seen.add(x));return {common,left:shuffle([common,...others.slice(0,4)]),right:shuffle([common,...others.slice(4)])};});validate(rounds);return rounds;}
+root.Dobble={items,shuffle,create,validate};if(typeof module!=='undefined')module.exports=root.Dobble;
+})(typeof window!=='undefined'?window:globalThis);

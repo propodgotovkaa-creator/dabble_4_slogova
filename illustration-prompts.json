@@ -1,0 +1,61 @@
+{
+  "tool": "Built-in Imagegen",
+  "images": [
+    {
+      "file": "assets/sofa.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: a cozy teal two-seat sofa. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/lemon.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one whole yellow lemon with a small leaf. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/rooster.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one proud rooster with a red comb, colorful tail. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/bag.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one simple coral shopping bag with two clear handles, no logo. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/ram.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one fluffy cream ram with large curled horns. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/pie.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one round golden lattice pie in a shallow dish. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/cook.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one friendly human chef wearing a large white chef hat and white apron, full body. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/axe.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one simple axe with wooden handle and steel head. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/castle.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one fairytale medieval castle building with towers and red roofs, NOT a padlock. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/boar.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one brown wild boar with bristly back, snout and small tusks. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/sock.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one colorful striped sock. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/bread.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one long golden loaf of white bread with diagonal cuts, no dish. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/giraffe.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one friendly full-body giraffe with long neck and brown spots. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    },
+    {
+      "file": "assets/peas.png",
+      "prompt": "Use case: illustration-story. Asset: single isolated object for a children's speech therapy matching game. Subject: one open green pea pod with visible round green peas. Professional children's picture book gouache and colored-pencil illustration, soft harmonious rich colors, clean gently textured contours, warm charming handmade look. Centered, full silhouette visible, fills 80% of square canvas. Readable at 100 pixels. Transparent background with true alpha. No text, letters, border, floor, scenery, other objects, emojis, stock icons, photorealism or 3D."
+    }
+  ]
+}
