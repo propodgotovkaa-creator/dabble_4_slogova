@@ -22,3 +22,34 @@
 .picture.found{background:#dcecc8;box-shadow:0 0 0 3px #a9c58a,0 0 25px #c7dfa4}
 .picture img{-webkit-user-select:none;-webkit-touch-callout:none}
 .picture::-moz-focus-inner{border:0}
+/* Large play area: give the available viewport to the circles. */
+#app[data-screen="game"]{padding:10px 1.5vw}
+#app[data-screen="game"] header{position:absolute;right:20px;top:10px;z-index:3}
+.game{max-width:none;padding-top:0}
+.game-heading{max-width:none;padding:0 120px 0 2vw;min-height:48px}
+.game-heading h2{font-size:clamp(19px,2.5vw,28px);line-height:1.15;margin-top:6px}
+.game-heading .eyebrow{font-size:9px;letter-spacing:2px}
+.board{gap:2vw;margin:12px auto 8px}
+.card{width:min(47vw,calc(100svh - 122px));border-width:clamp(5px,.7vw,9px)}
+.feedback{font-size:15px;line-height:22px;min-height:22px;margin:8px 0 0}
+.picture{padding:1%;cursor:pointer;touch-action:manipulation;outline:none!important;border:0!important;border-radius:0;background:transparent!important;box-shadow:none!important}
+.picture img{display:block;-webkit-tap-highlight-color:transparent}
+.picture.found img{filter:drop-shadow(0 0 5px #a2c76d) drop-shadow(0 0 9px #b5d684);transform:scale(1.08)}
+.picture:focus-visible img{filter:drop-shadow(0 0 4px #327e79) drop-shadow(0 0 7px #75b9ac)}
+.picture[aria-disabled="true"]{cursor:default}
+@media(max-width:600px){
+ #app[data-screen="game"]{padding:10px 1vw}
+ #app[data-screen="game"] header{right:14px}
+ .game{padding-top:44px}
+ .game-heading{display:block;text-align:center;padding:0 8px;min-height:0}
+ .game-heading h2{font-size:21px}
+ .progress{padding:0;margin-top:14px}
+ .board{gap:2vw;margin:22px auto 12px}
+ .card{width:47vw}
+ .feedback{font-size:13px;margin-top:15px}
+}
+@media(max-height:450px) and (min-width:601px){
+ .game-heading{min-height:35px}.game-heading h2{font-size:19px;margin-top:3px}
+ .board{margin:6px auto}.card{width:min(47vw,calc(100svh - 100px))}
+ .feedback{margin-top:4px;font-size:13px}
+}
